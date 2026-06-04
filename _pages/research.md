@@ -146,8 +146,6 @@ author_profile: true
       </p>
     </details>
   </li>
-    
-  </li>
 
 </ol>
 

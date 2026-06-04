@@ -1,16 +1,108 @@
 ---
 layout: archive
-title: "Talks and presentations"
+title: "Presentations"
 permalink: /talks/
 author_profile: true
 ---
 
-{% if site.talkmap_link == true %}
+{% include base_path %}
 
-<p style="text-decoration:underline;"><a href="/talkmap.html">See a map of all the places I've given a talk!</a></p>
+<style>
+.presentation-page {
+  margin-top: 1em;
+}
 
-{% endif %}
+.presentation-group {
+  margin-bottom: 2.2em;
+}
 
-{% for post in site.talks reversed %}
-  {% include archive-single-talk.html %}
-{% endfor %}
+.presentation-title {
+  font-weight: 700;
+  font-size: 1.05em;
+  line-height: 1.35;
+  font-style: italic;
+}
+
+.presentation-authors {
+  margin-top: 0.15em;
+  font-size: 0.95em;
+}
+
+.presentation-list {
+  margin-top: 0.65em;
+  margin-bottom: 1.4em;
+  padding-left: 1.4em;
+}
+
+.presentation-list li {
+  margin-bottom: 0.35em;
+  line-height: 1.45;
+}
+
+.presentation-status {
+  font-style: italic;
+}
+</style>
+
+<div class="presentation-page">
+
+<h2>Papers Presented in Seminars and Conferences</h2>
+
+<div class="presentation-group">
+
+  <div class="presentation-title">
+    Estimating Higher-Order Stochastic Volatility Models with Moving Average Components: Methodology and Applications
+  </div>
+
+  <div class="presentation-authors">
+    with 
+    <a href="https://jeanmariedufour.research.mcgill.ca/dufour.html" target="_blank">Jean-Marie Dufour</a>
+  </div>
+
+  <ul class="presentation-list">
+    <li>The 59th Annual Meetings of the Canadian Economics Association, Montréal, QC, May 29, 2025.</li>
+    <li>CIREQ Weekly PhD Student Research Workshop, Montréal, QC, January 28, 2026.</li>
+    <li>CIREQ Lunch Seminars, Montréal, QC, February 10, 2026.</li>
+    <li>20th CIREQ-CIRANO Ph.D. Students’ Conference, Montréal, QC, May 19–20, 2026.</li>
+    <li><span class="presentation-status">Scheduled:</span> 18th Annual Society for Financial Econometrics Conference, Macau, China, June 17–19, 2026.</li>
+  </ul>
+
+</div>
+
+<div class="presentation-group">
+
+  <div class="presentation-title">
+    Pairwise Difference Representations of Moments: Gini and Generalized Lagrange Identities
+  </div>
+
+  <div class="presentation-authors">
+    with 
+    <a href="https://jeanmariedufour.research.mcgill.ca/dufour.html" target="_blank">Jean-Marie Dufour</a>
+    and Abderrahim Taamouti
+  </div>
+
+  <ul class="presentation-list">
+    <li>Joint Statistical Meetings, American Statistical Association, Nashville, Tennessee, August 4, 2025.</li>
+  </ul>
+
+</div>
+
+<div class="presentation-group">
+
+  <div class="presentation-title">
+    From Micro-Slices to Macro Effects: Identifying Policy and Information Shocks via Time-Varying Volatility
+  </div>
+
+  <div class="presentation-authors">
+    Meilin Tong
+  </div>
+
+  <ul class="presentation-list">
+    <li>CIREQ Lunch Seminars, Montréal, QC, May 12, 2026.</li>
+    <li>The 60th Annual Meetings of the Canadian Economics Association, Vancouver, BC, May 28–30, 2026.</li>
+    <li><span class="presentation-status">Scheduled:</span> CIREQ Lunch Seminars, Montréal, QC, July 28, 2026.</li>
+  </ul>
+
+</div>
+
+</div>

@@ -14,7 +14,7 @@ main:
     url: /research/
 
   - title: "Presentations"
-  url: /talks/
+    url: /talks/
 
   - title: "Teaching"
     url: /teaching/

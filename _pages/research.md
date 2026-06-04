@@ -117,6 +117,14 @@ author_profile: true
       Revised May 2026
     </div>
 
+     <details class="paper-abstract">
+      <summary>Abstract</summary>
+      <p>
+        We develop a practical framework for stochastic volatility models in which latent log-volatility follows an ARMA(p,q) process, denoted SV(p,q). Allowing for a moving-average component is economically and empirically motivated: volatility shocks often propagate over short horizons, and discretely sampled returns can inherit MA features from higher-frequency or continuous-time volatility dynamics. Despite their relevance, SV models with MA volatility innovations are rarely used in applied work because estimation and implementation become cumbersome beyond the simplest specifications.
+        Our contribution is twofold. First, we derive a reduced-form characterization that transforms SV(p,q) into a standard observable time-series problem. Using the centered log-squared return transformation, we show that the transformed series admits a reduced-form ARMA(p,m) representation, where m=max(p,q), with an additive measurement-noise component of known variance. Second, we leverage this structure to provide a computationally efficient estimation and model-selection pipeline. We estimate the reduced-form ARMA using fast regression-based methods and then recover the structural SV(p,q) parameters via an admissible backward-mapping step based on matching autocovariances. Our main estimator is a Hannan--Rissanen-type procedure tailored to the reduced form that applies uniformly across orders (p,q).
+		Monte Carlo experiments show that the proposed pipeline yields accurate finite-sample estimates and that the Hannan--Rissanen approach is stable for higher-order specifications. A two-stage order-selection rule reliably identifies the reduced-form order, while nested cases can lead to conservative selection of q. An empirical illustration using daily S\&P~500 returns selects an SV(1,1) specification.
+      </p>
+    </details>
   </li>
 
   <li class="paper-item">
@@ -130,6 +138,15 @@ author_profile: true
     <div class="paper-status">
       Working paper
     </div>
+    
+    <details class="paper-abstract">
+      <summary>Abstract</summary>
+      <p>
+        Central bank announcements trigger rapid shifts in asset prices, but these shifts mix two forces: unexpected policy actions and information about the economic outlook. Treating the entire reaction as “the” policy shock can lead to misreading market signals and miscalibrated communication. We develop a high-frequency identification framework that uses volatility around the announcement window to strengthen identification and improve mixed-shock labeling. First, we construct event-level surprise vectors from intraday prices within a narrow announcement window and treat them as noisy measurements of latent event shocks. Using five-minute micro-slices, we estimate event-specific measurement uncertainty, form noise-corrected second moments, and identify the contemporaneous impact matrix via identification-through-heteroskedasticity methods. We test identification using formal rank diagnostics, yielding a mapping from observed surprises to orthogonal structural shocks while separating structural heteroskedasticity from measurement noise. Second, we estimate event-time stochastic volatility for the recovered shocks and construct a precision-weighted monthly shock series that incorporates high-frequency uncertainty into macro inference. A novel feature is “volatility signatures”: changes in intraday volatility before and after the announcement window. We use these signatures as auxiliary, testable inputs to classify events as policy- or information-related, complementing sign/comovement and predictability-based methods. These type-specific monthly shocks enter a block-recursive monthly VAR as observed innovations, producing impulse responses that decompose macro dynamics into policy versus information channels. We apply the framework to U.S. FOMC communications using intraday policy-rate and equity index futures/ETFs, linking identified event shocks to monthly U.S. macro-financial dynamics. The decomposition clarifies when apparent policy surprises reflect information disclosure and supports uncertainty-aware macro-financial inference. 
+      </p>
+    </details>
+  </li>
+    
   </li>
 
 </ol>

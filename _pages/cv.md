@@ -6,45 +6,15 @@ author_profile: true
 redirect_from:
   - /resume
 ---
-
 {% include base_path %}
 
 <style>
-.cv-download-buttons {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.7em;
-  margin-bottom: 1.2em;
-}
-
-.cv-download-button {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.4em;
-  padding: 0.5em 0.8em;
-  border: 1px solid currentColor;
-  border-radius: 4px;
-  color: inherit;
-  font-weight: 600;
-  text-decoration: none;
-}
-
-.cv-download-button::before {
-  content: "↓";
-  font-weight: 700;
-}
-
-.cv-download-button:hover {
-  opacity: 0.8;
-  text-decoration: none;
-}
-
 .cv-preview-controls {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   gap: 0.6em;
-  margin-bottom: 0.8em;
+  margin-bottom: 1em;
 }
 
 .cv-preview-label {
@@ -59,6 +29,10 @@ redirect_from:
   color: inherit;
   font: inherit;
   cursor: pointer;
+}
+
+.cv-preview-button:hover {
+  opacity: 0.8;
 }
 
 .cv-preview-button.is-active {
@@ -82,11 +56,6 @@ html[data-theme="dark"] .cv-pdf-viewer {
   border-color: #666;
 }
 
-.cv-preview-fallback {
-  margin-top: 0.7em;
-  font-size: 0.9em;
-}
-
 @media (max-width: 768px) {
   .cv-pdf-viewer {
     height: 800px;
@@ -94,26 +63,8 @@ html[data-theme="dark"] .cv-pdf-viewer {
 }
 </style>
 
-<div class="cv-download-buttons" aria-label="Download CV">
-  <a
-    class="cv-download-button"
-    href="{{ base_path }}/files/CV.pdf"
-    download="Meilin_Tong_CV_short.pdf"
-  >
-    Download CV (short)
-  </a>
-
-  <a
-    class="cv-download-button"
-    href="{{ base_path }}/files/CV_long.pdf"
-    download="Meilin_Tong_CV_long.pdf"
-  >
-    Download CV (long)
-  </a>
-</div>
-
-<div class="cv-preview-controls" aria-label="Choose CV preview">
-  <span class="cv-preview-label">Preview:</span>
+<div class="cv-preview-controls" aria-label="Choose CV version">
+  <span class="cv-preview-label">CV version:</span>
 
   <button
     type="button"
@@ -123,7 +74,7 @@ html[data-theme="dark"] .cv-pdf-viewer {
     aria-controls="cv-pdf-viewer"
     aria-pressed="true"
   >
-    Short version
+    Short
   </button>
 
   <button
@@ -134,7 +85,7 @@ html[data-theme="dark"] .cv-pdf-viewer {
     aria-controls="cv-pdf-viewer"
     aria-pressed="false"
   >
-    Long version
+    Long
   </button>
 </div>
 
@@ -146,20 +97,9 @@ html[data-theme="dark"] .cv-pdf-viewer {
 >
 </iframe>
 
-<p class="cv-preview-fallback">
-  If the preview does not appear, 
-  <a
-    id="cv-preview-link"
-    href="{{ base_path }}/files/CV.pdf"
-    target="_blank"
-    rel="noopener noreferrer"
-  >open the selected CV in a new tab</a>.
-</p>
-
 <script>
 document.addEventListener("DOMContentLoaded", function () {
   const viewer = document.getElementById("cv-pdf-viewer");
-  const previewLink = document.getElementById("cv-preview-link");
   const buttons = document.querySelectorAll(".cv-preview-button");
 
   buttons.forEach(function (button) {
@@ -169,7 +109,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
       viewer.setAttribute("src", selectedFile);
       viewer.setAttribute("title", selectedTitle);
-      previewLink.setAttribute("href", selectedFile);
 
       buttons.forEach(function (otherButton) {
         const isSelected = otherButton === button;

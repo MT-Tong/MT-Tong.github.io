@@ -54,13 +54,13 @@ author_profile: true
   margin-top: 0.5em;
   font-size: 0.88em;
   line-height: 1.5;
-  color: #555;
+  color: #000;
 }
 
 .paper-abstract summary {
   cursor: pointer;
   font-weight: 600;
-  color: #333;
+  color: inherit;
   margin-bottom: 0.35em;
 }
 

@@ -50,21 +50,21 @@ author_profile: true
   font-style: italic;
 }
 
-.homepage-paper-abstract {
+.paper-abstract {
   margin-top: 0.6em;
   font-size: 0.88em;
   line-height: 1.5;
   color: #000;
 }
 
-.homepage-paper-abstract summary {
+.paper-abstract summary {
   cursor: pointer;
   font-weight: 600;
   color: inherit;
   margin-bottom: 0.35em;
 }
 
-html[data-theme="dark"] .homepage-paper-abstract {
+html[data-theme="dark"] .paper-abstract {
   color: #fff;
 }
 
@@ -140,16 +140,38 @@ html[data-theme="dark"] .homepage-paper-abstract {
     </div>
 
     <details class="paper-abstract">
-      <summary>Abstract</summary>
+    <summary>Abstract</summary>
 
-      <p>
-        Market reactions to FOMC announcements reflect both unexpected monetary-policy actions and information about the economic outlook. Because these forces can generate different macroeconomic responses, separating them is essential for measuring policy transmission. Empirical work typically constructs shock-specific proxies from high-frequency financial price movements and then uses their monthly aggregates as external instruments in proxy SVARs. We show that this two-step strategy faces two distinct identification problems: weak shock separation upstream, when announcement-window data do not distinguish the latent shocks, and weak proxy relevance downstream, when a correctly separated proxy is only weakly correlated with its target SVAR shock. Standard weak-instrument methods address the second problem, not the first.
-      </p>
+    <p>
+      Market reactions to FOMC announcements reflect both unexpected monetary policy actions and information about the economic outlook. Empirical studies construct shock-specific proxies from high-frequency financial price movements around policy announcements and aggregate them into monthly measures. These proxies are then used as external instruments in structural vector autoregressions (SVARs) to estimate the shocks’ dynamic macroeconomic effects. This strategy faces two identification problems: weak shock separation upstream, when announcement data do not clearly distinguish the latent shocks, and weak proxy relevance downstream, when a correctly separated proxy is weakly correlated with its target shock. Standard weak-instrument methods address the second problem, not the first.
+    </p>
+  
+    <p>
+    Using identification through heteroskedasticity in the upstream model, we show that weak separation can leave generated proxies as mixtures of structural shocks, invalidating plug-in inference, including Anderson–Rubin procedures. We develop joint inference procedures that incorporate proxy construction directly into structural inference. A projected Stock–Wright-type procedure remains asymptotically valid under weak upstream separation and weak downstream relevance, while a reduced-profile procedure is sharper under an additional conditional-rank condition. Monte Carlo experiments show severe overrejection by plug-in methods, while the joint procedures avoid this distortion in the designs considered. In an FOMC application, extending the measurement window from the policy statement to include the press conference appears to sharpen inference about the dynamic effects of central bank information shocks when the estimated proxies are treated as fixed. Once uncertainty in proxy construction is incorporated, however, the corresponding confidence sets become unbounded, and most dynamic macroeconomic effects remain imprecisely determined. Broader announcement coverage therefore need not deliver more precise inference about macroeconomic transmission.
+  </p>
+</details>
+  </li>
 
-      <p>
-        Using identification through heteroskedasticity in the upstream model, we show that nearly proportional covariance changes across announcement states can leave the policy-information shocks weakly separated. The generated proxy can then remain a mixture of structural shocks, invalidating downstream plug-in inference, including Anderson–Rubin procedures. We develop joint inference procedures that incorporate proxy construction directly into structural inference. A projected Stock–Wright-type procedure remains valid under weak upstream separation and weak downstream relevance, while a reduced-profile procedure is sharper under an additional conditional-rank condition. Monte Carlo experiments show severe overrejection by plug-in methods and size control by joint inference. In an FOMC application, expanding the measurement window beyond the policy statement substantially strengthens the measured central-bank-information signal, while yielding little scale-adjusted improvement for the monetary-policy proxy. Yet dynamic macroeconomic effects remain imprecisely identified. Stronger measured proxies therefore need not deliver more reliable structural inference.
-      </p>
-    </details>
+</ol>
+
+<h2>Conference Proceedings</h2>
+
+<ol class="paper-list">
+
+  <li class="paper-item">
+    <div>
+      <span class="paper-title">“Pairwise Difference Representations of Central Moments: Skewness, Kurtosis, and Higher-Order Recursions”</span>,
+      <span class="paper-authors">
+        with
+        <a href="https://jeanmariedufour.research.mcgill.ca/dufour.html" target="_blank" rel="noopener noreferrer">Jean-Marie Dufour</a>
+        and Abderrahim Taamouti
+      </span>
+    </div>
+
+    <div class="paper-status">
+      2025 JSM Proceedings, 15 pages |
+      <a href="https://doi.org/10.5281/zenodo.17379223" target="_blank" rel="noopener noreferrer">DOI</a>
+    </div>
   </li>
 
 </ol>
@@ -175,27 +197,6 @@ html[data-theme="dark"] .homepage-paper-abstract {
         with Md. Nazmul Ahsan and
         <a href="https://jeanmariedufour.research.mcgill.ca/dufour.html" target="_blank" rel="noopener noreferrer">Jean-Marie Dufour</a>
       </span>
-    </div>
-  </li>
-
-</ol>
-
-<h2>Conference Proceedings</h2>
-
-<ol class="paper-list">
-
-  <li class="paper-item">
-    <div>
-      <span class="paper-title">“Pairwise Difference Representations of Central Moments: Skewness, Kurtosis, and Higher-Order Recursions”</span>,
-      <span class="paper-authors">
-        with
-        <a href="https://jeanmariedufour.research.mcgill.ca/dufour.html" target="_blank" rel="noopener noreferrer">Jean-Marie Dufour</a>
-        and Abderrahim Taamouti
-      </span>
-    </div>
-
-    <div class="paper-status">
-      2026 JSM Proceedings
     </div>
   </li>
 

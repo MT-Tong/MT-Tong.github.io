@@ -13,10 +13,7 @@ Welcome! I am a PhD candidate in Economics at McGill University in Canada.
 
 My research interests lie at the intersection of **financial econometrics, macroeconometrics, and time series analysis**. I develop econometric methods that use financial data to learn about financial risks and economic shocks that cannot be observed directly. My work focuses on how financial risk evolves, how different shocks shape market reactions, and how their effects propagate through the broader economy. These methods support more reliable risk measurement, forecasting, and macroeconomic policy evaluation.
 
-You can find my CV:
-<a href="{{ base_path }}/files/CV.pdf" target="_blank" rel="noopener noreferrer">short version</a>
-and
-<a href="{{ base_path }}/files/CV_long.pdf" download aria-label="Download the long version of Meilin Tong's CV">long version &#8595;</a>.
+You can find my CV here [<a href="{{ base_path }}/files/CV.pdf" target="_blank" rel="noopener noreferrer">short version</a>, <a href="{{ base_path }}/files/CV_long.pdf" target="_blank" rel="noopener noreferrer">long version</a>].
 You can find more details about my ongoing projects on my
 <a href="{{ base_path }}/research/">Research page</a>.
 

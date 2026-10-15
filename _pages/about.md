@@ -49,6 +49,10 @@ You can find my [CV here]({{ base_path }}/files/CV.pdf) and more details about m
   margin-bottom: 0.35em;
 }
 
+html[data-theme="dark"] .homepage-paper-abstract {
+  color: #fff;
+}
+
 .homepage-paper-abstract p {
   margin-top: 0.5em;
 }

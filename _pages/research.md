@@ -50,18 +50,22 @@ author_profile: true
   font-style: italic;
 }
 
-.paper-abstract {
-  margin-top: 0.5em;
+.homepage-paper-abstract {
+  margin-top: 0.6em;
   font-size: 0.88em;
   line-height: 1.5;
   color: #000;
 }
 
-.paper-abstract summary {
+.homepage-paper-abstract summary {
   cursor: pointer;
   font-weight: 600;
   color: inherit;
   margin-bottom: 0.35em;
+}
+
+html[data-theme="dark"] .homepage-paper-abstract {
+  color: #fff;
 }
 
 .paper-abstract p {

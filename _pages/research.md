@@ -112,7 +112,7 @@ html[data-theme="dark"] .paper-abstract {
         <a href="https://jeanmariedufour.research.mcgill.ca/dufour.html" target="_blank" rel="noopener noreferrer">Jean-Marie Dufour</a>
         and Abderrahim Taamouti
       </span>
-      <span class="paper-date">(December 2025, 26 pages)</span>
+      <span class="paper-date">(September 2026, 26 pages)</span>
     </div>
 
     <div class="paper-status">

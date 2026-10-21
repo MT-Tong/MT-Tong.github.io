@@ -86,7 +86,7 @@ html[data-theme="dark"] .paper-abstract {
         with
         <a href="https://jeanmariedufour.research.mcgill.ca/dufour.html" target="_blank" rel="noopener noreferrer">Jean-Marie Dufour</a>
       </span>
-      <span class="paper-date">(September 2026)</span>
+      <span class="paper-date">(September 2026, 84 pages)</span>
     </div>
 
     <details class="paper-abstract">
@@ -112,11 +112,11 @@ html[data-theme="dark"] .paper-abstract {
         <a href="https://jeanmariedufour.research.mcgill.ca/dufour.html" target="_blank" rel="noopener noreferrer">Jean-Marie Dufour</a>
         and Abderrahim Taamouti
       </span>
-      <span class="paper-date">(December 2025)</span>
+      <span class="paper-date">(December 2025, 26 pages)</span>
     </div>
 
     <div class="paper-status">
-      Revise and resubmit, <em>International Statistical Review</em> |
+      Submitted to <em>Communications in Statistics - Theory and Methods</em> |
       <a href="https://arxiv.org/abs/2510.22714" target="_blank" rel="noopener noreferrer">arXiv</a>
     </div>
 
@@ -124,7 +124,7 @@ html[data-theme="dark"] .paper-abstract {
       <summary>Abstract</summary>
 
       <p>
-        We provide pairwise-difference (Gini-type) representations of higher-order central moments for both general random variables and empirical moments. Such representations do not require a measure of location. For third and fourth moments, this yields pairwise-difference representations of skewness and kurtosis coefficients. We show that all central moments possess such representations, so no reference to the mean is needed for moments of any order. This is done by considering i.i.d. replications of the random variables considered, by observing that central moments can be interpreted as covariances between a random variable and powers of the same variable, and by giving recursions which link the pairwise-difference representation of any moment to lower-order ones. Numerical summation identities are deduced. Through a similar approach, we give analogues of the Lagrange and Binet–Cauchy identities for general random variables, along with a simple derivation of the classic Cauchy–Schwarz inequality for covariances. Finally, an application to unbiased estimation of centered moments is discussed.
+        We provide pairwise-difference (Gini-type) representations of higher-order central moments for both general random variables and empirical moments. Such representations do not require a measure of location. For third and fourth moments, this yields pairwise-difference representations of skewness and kurtosis coefficients. We show that all central moments possess such representations, so no reference to the mean is needed for moments of any order. This is done by considering i.i.d. replications of the random variables considered, by observing that central moments can be interpreted as covariances between a random variable and powers of the same variable, and by giving recursions that link the pairwise-difference representation of any moment to lower-order ones.
       </p>
     </details>
   </li>
@@ -136,7 +136,7 @@ html[data-theme="dark"] .paper-abstract {
         with
         <a href="https://jeanmariedufour.research.mcgill.ca/dufour.html" target="_blank" rel="noopener noreferrer">Jean-Marie Dufour</a>
       </span>
-      <span class="paper-date">(September 2026)</span>
+      <span class="paper-date">(September 2026, 85 pages)</span>
     </div>
 
     <details class="paper-abstract">
@@ -178,7 +178,7 @@ html[data-theme="dark"] .paper-abstract {
 
   <li class="paper-item">
     <div>
-      <span class="paper-title">“Finite-Sample Inference for High-Frequency Jump Tests under Market Microstructure Frictions”</span>,
+      <span class="paper-title">“Simulation-Based High-Frequency Jump Tests”</span>,
       <span class="paper-authors">
         with Md. Nazmul Ahsan and
         <a href="https://jeanmariedufour.research.mcgill.ca/dufour.html" target="_blank" rel="noopener noreferrer">Jean-Marie Dufour</a>

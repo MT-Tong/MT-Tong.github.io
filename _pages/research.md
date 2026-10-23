@@ -131,11 +131,7 @@ html[data-theme="dark"] .paper-abstract {
 
   <li class="paper-item">
     <div>
-      <span class="paper-title">“From Announcement Reactions to Macroeconomic Effects: Identification-Robust Inference with Weakly Separated Policy and Information Shocks”</span>,
-      <span class="paper-authors">
-        with
-        <a href="https://jeanmariedufour.research.mcgill.ca/dufour.html" target="_blank" rel="noopener noreferrer">Jean-Marie Dufour</a>
-      </span>
+      <span class="paper-title">“From Announcement Reactions to Macroeconomic Effects: Identification-Robust Inference with Weakly Separated Policy and Information Shocks”</span>.
       <span class="paper-date">(September 2026, 85 pages)</span>
     </div>
 
@@ -180,8 +176,7 @@ html[data-theme="dark"] .paper-abstract {
     <div>
       <span class="paper-title">“Simulation-Based High-Frequency Jump Tests”</span>,
       <span class="paper-authors">
-        with Md. Nazmul Ahsan and
-        <a href="https://jeanmariedufour.research.mcgill.ca/dufour.html" target="_blank" rel="noopener noreferrer">Jean-Marie Dufour</a>
+        with Md. Nazmul Ahsan
       </span>
     </div>
   </li>

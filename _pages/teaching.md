@@ -69,7 +69,7 @@ author_profile: true
 <div class="teaching-section-title">Teaching Experience</div>
 
 <p class="teaching-intro">
-My teaching experience includes courses in financial economics, macroeconomics, money and banking, statistics, econometrics, and mathematics.
+My teaching experience spans econometrics, finance, macroeconomics, money and banking, statistics, and mathematics.
 </p>
 
 <div class="teaching-section">

@@ -23,4 +23,4 @@ You can find my CV here [<a href="{{ base_path }}/files/CV.pdf" target="_blank" 
 **[“Estimating Higher-Order Stochastic Volatility Models with Moving-Average Components: Methodology and Applications”]({{ base_path }}/research/#job-market-paper)**  
 with Jean-Marie Dufour. Submitted.
 
-For my other papers and ongoing projects, please see the [Research]({{ base_path }}/research/) page.
+For a complete list of my papers and ongoing projects, please see the [Research]({{ base_path }}/research/) page.

@@ -19,18 +19,18 @@ author_profile: true
   scroll-margin-top: 5rem;
 }
 
+.paper-citation {
+  line-height: 1.5;
+}
+
 .paper-title {
   font-weight: 700;
   font-size: 1.05em;
   line-height: 1.35;
 }
 
-.paper-authors,
-.paper-meta,
-.paper-status {
-  margin-top: 0.2em;
+.paper-details {
   font-size: 0.95em;
-  line-height: 1.45;
 }
 
 .paper-abstract {
@@ -68,19 +68,15 @@ html[data-theme="dark"] .paper-abstract {
 
   <li class="paper-item" id="job-market-paper">
 
-    <div class="paper-title">
-      “Estimating Higher-Order Stochastic Volatility Models with Moving-Average Components: Methodology and Applications”
-    </div>
-
-    <div class="paper-authors">
-      with
-      <a href="https://jeanmariedufour.research.mcgill.ca/dufour.html"
-         target="_blank"
-         rel="noopener noreferrer">Jean-Marie Dufour</a>
-    </div>
-
-    <div class="paper-meta">
-      (September 2026; Main: 37 pages; Appendix: 43 pages). Submitted.
+    <div class="paper-citation">
+      <span class="paper-title">“Estimating Higher-Order Stochastic Volatility Models with Moving-Average Components: Methodology and Applications,”</span>
+      <span class="paper-details">
+        with
+        <a href="https://jeanmariedufour.research.mcgill.ca/dufour.html"
+           target="_blank"
+           rel="noopener noreferrer">Jean-Marie Dufour</a>.
+        (September 2026; Main: 37 pages; Appendix: 43 pages). Submitted.
+      </span>
     </div>
 
     <details class="paper-abstract" open>
@@ -101,27 +97,20 @@ html[data-theme="dark"] .paper-abstract {
 
   <li class="paper-item">
 
-    <div class="paper-title">
-      “Gini Representations of Skewness, Kurtosis and Higher-Order Moments”
-    </div>
-
-    <div class="paper-authors">
-      with
-      <a href="https://jeanmariedufour.research.mcgill.ca/dufour.html"
-         target="_blank"
-         rel="noopener noreferrer">Jean-Marie Dufour</a>
-      and Abderrahim Taamouti
-    </div>
-
-    <div class="paper-meta">
-      (September 2026; 26 pages).
-    </div>
-
-    <div class="paper-status">
-      Submitted to <em>Communications in Statistics - Theory and Methods</em> |
-      <a href="https://arxiv.org/abs/2510.22714"
-         target="_blank"
-         rel="noopener noreferrer">arXiv</a>
+    <div class="paper-citation">
+      <span class="paper-title">“Gini Representations of Skewness, Kurtosis and Higher-Order Moments,”</span>
+      <span class="paper-details">
+        with
+        <a href="https://jeanmariedufour.research.mcgill.ca/dufour.html"
+           target="_blank"
+           rel="noopener noreferrer">Jean-Marie Dufour</a>
+        and Abderrahim Taamouti.
+        (September 2026; 26 pages). Submitted to
+        <em>Communications in Statistics - Theory and Methods</em>.
+        (<a href="https://arxiv.org/abs/2510.22714"
+            target="_blank"
+            rel="noopener noreferrer">arXiv</a>)
+      </span>
     </div>
 
     <details class="paper-abstract">
@@ -136,12 +125,11 @@ html[data-theme="dark"] .paper-abstract {
 
   <li class="paper-item">
 
-    <div class="paper-title">
-      “From Announcement Reactions to Macroeconomic Effects: Identification-Robust Inference with Weakly Separated Policy and Information Shocks”
-    </div>
-
-    <div class="paper-meta">
-      (September 2026; Main: 38 pages; Appendix: 42 pages).
+    <div class="paper-citation">
+      <span class="paper-title">“From Announcement Reactions to Macroeconomic Effects: Identification-Robust Inference with Weakly Separated Policy and Information Shocks.”</span>
+      <span class="paper-details">
+        (September 2026; Main: 38 pages; Appendix: 42 pages).
+      </span>
     </div>
 
     <details class="paper-abstract">
@@ -162,27 +150,20 @@ html[data-theme="dark"] .paper-abstract {
 
   <li class="paper-item">
 
-    <div class="paper-title">
-      “Pairwise Difference Representations of Central Moments: Skewness, Kurtosis, and Higher-Order Recursions”
-    </div>
-
-    <div class="paper-authors">
-      with
-      <a href="https://jeanmariedufour.research.mcgill.ca/dufour.html"
-         target="_blank"
-         rel="noopener noreferrer">Jean-Marie Dufour</a>
-      and Abderrahim Taamouti
-    </div>
-
-    <div class="paper-meta">
-      (October 2025; 15 pages).
-    </div>
-
-    <div class="paper-status">
-      <em>2025 Joint Statistical Meetings (JSM) Proceedings</em> |
-      <a href="https://doi.org/10.5281/zenodo.17379223"
-         target="_blank"
-         rel="noopener noreferrer">DOI</a>
+    <div class="paper-citation">
+      <span class="paper-title">“Pairwise Difference Representations of Central Moments: Skewness, Kurtosis, and Higher-Order Recursions,”</span>
+      <span class="paper-details">
+        with
+        <a href="https://jeanmariedufour.research.mcgill.ca/dufour.html"
+           target="_blank"
+           rel="noopener noreferrer">Jean-Marie Dufour</a>
+        and Abderrahim Taamouti.
+        (October 2025; 15 pages).
+        <em>2025 Joint Statistical Meetings (JSM) Proceedings</em>.
+        (<a href="https://doi.org/10.5281/zenodo.17379223"
+            target="_blank"
+            rel="noopener noreferrer">DOI</a>)
+      </span>
     </div>
 
   </li>
@@ -195,27 +176,25 @@ html[data-theme="dark"] .paper-abstract {
 
   <li class="paper-item">
 
-    <div class="paper-title">
-      “Simulation-Based High-Frequency Jump Tests”
-    </div>
-
-    <div class="paper-authors">
-      with Md. Nazmul Ahsan
+    <div class="paper-citation">
+      <span class="paper-title">“Simulation-Based High-Frequency Jump Tests,”</span>
+      <span class="paper-details">
+        with Md. Nazmul Ahsan.
+      </span>
     </div>
 
   </li>
 
   <li class="paper-item">
 
-    <div class="paper-title">
-      “High-Dimensional Stochastic Covariance Estimation via Model Aggregation”
-    </div>
-
-    <div class="paper-authors">
-      with Md. Nazmul Ahsan and
-      <a href="https://jeanmariedufour.research.mcgill.ca/dufour.html"
-         target="_blank"
-         rel="noopener noreferrer">Jean-Marie Dufour</a>
+    <div class="paper-citation">
+      <span class="paper-title">“High-Dimensional Stochastic Covariance Estimation via Model Aggregation,”</span>
+      <span class="paper-details">
+        with Md. Nazmul Ahsan and
+        <a href="https://jeanmariedufour.research.mcgill.ca/dufour.html"
+           target="_blank"
+           rel="noopener noreferrer">Jean-Marie Dufour</a>.
+      </span>
     </div>
 
   </li>

@@ -33,6 +33,12 @@ author_profile: true
   font-size: 0.95em;
 }
 
+.paper-status {
+  margin-top: 0.2em;
+  font-size: 0.92em;
+  line-height: 1.45;
+}
+
 .paper-abstract {
   margin-top: 0.5em;
   font-size: 0.88em;
@@ -105,12 +111,15 @@ html[data-theme="dark"] .paper-abstract {
            target="_blank"
            rel="noopener noreferrer">Jean-Marie Dufour</a>
         and Abderrahim Taamouti.
-        (September 2026; 26 pages). Submitted to
-        <em>Communications in Statistics - Theory and Methods</em>.
-        (<a href="https://arxiv.org/abs/2510.22714"
-            target="_blank"
-            rel="noopener noreferrer">arXiv</a>)
+        (September 2026; 26 pages).
       </span>
+    </div>
+
+    <div class="paper-status">
+      Submitted to <em>Communications in Statistics - Theory and Methods</em> |
+      <a href="https://arxiv.org/abs/2510.22714"
+         target="_blank"
+         rel="noopener noreferrer">arXiv</a>
     </div>
 
     <details class="paper-abstract">
@@ -159,10 +168,10 @@ html[data-theme="dark"] .paper-abstract {
            rel="noopener noreferrer">Jean-Marie Dufour</a>
         and Abderrahim Taamouti.
         (October 2025; 15 pages).
-        <em>2025 Joint Statistical Meetings (JSM) Proceedings</em>.
-        (<a href="https://doi.org/10.5281/zenodo.17379223"
-            target="_blank"
-            rel="noopener noreferrer">DOI</a>)
+        <em>2025 Joint Statistical Meetings (JSM) Proceedings</em> |
+        <a href="https://doi.org/10.5281/zenodo.17379223"
+           target="_blank"
+           rel="noopener noreferrer">DOI</a>
       </span>
     </div>
 

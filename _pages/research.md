@@ -151,7 +151,7 @@ html[data-theme="dark"] .paper-abstract {
     Revise and resubmit at <em>International Statistical Review</em> |
     <a href="https://arxiv.org/abs/2510.22714v2"
        target="_blank"
-       rel="noopener noreferrer">arXiv (v2)</a>
+       rel="noopener noreferrer">arXiv</a>
   </div>
 
 

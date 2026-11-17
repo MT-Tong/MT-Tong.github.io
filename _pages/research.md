@@ -74,16 +74,28 @@ html[data-theme="dark"] .paper-abstract {
 
   <li class="paper-item" id="job-market-paper">
 
-    <div class="paper-citation">
-      <span class="paper-title">“Estimating Higher-Order Stochastic Volatility Models with Moving-Average Components: Methodology and Applications,”</span>
-      <span class="paper-details">
-        with
-        <a href="https://jeanmariedufour.research.mcgill.ca/dufour.html"
-           target="_blank"
-           rel="noopener noreferrer">Jean-Marie Dufour</a>.
-        (September 2026; Main: 37 pages; Appendix: 43 pages). Submitted.
-      </span>
-    </div>
+    
+<div class="paper-citation">
+  <span class="paper-title">
+    “Estimating Stochastic Volatility Models with Moving Average Components:
+    Methodology and Applications,”
+  </span>
+  <span class="paper-details">
+    with
+    <a href="https://jeanmariedufour.research.mcgill.ca/dufour.html"
+       target="_blank"
+       rel="noopener noreferrer">Jean-Marie Dufour</a>.
+    (October 2026;
+    <a href="{{ base_path }}/files/Estimation_ARMApq_Tong_Dufour_2026_main.pdf"
+       target="_blank"
+       rel="noopener noreferrer">Main text</a>: 37 pages;
+    <a href="{{ base_path }}/files/Estimation_ARMApq_Tong_Dufour_2026_appendix.pdf"
+       target="_blank"
+       rel="noopener noreferrer">Online appendix</a>: 39 pages).
+    Submitted.
+  </span>
+</div>
+
 
     <details class="paper-abstract" open>
       <summary>Abstract</summary>
@@ -100,38 +112,7 @@ html[data-theme="dark"] .paper-abstract {
 <h2>Working Papers</h2>
 
 <ul class="paper-list">
-
-  <li class="paper-item">
-
-    <div class="paper-citation">
-      <span class="paper-title">“Gini Representations of Skewness, Kurtosis and Higher-Order Moments,”</span>
-      <span class="paper-details">
-        with
-        <a href="https://jeanmariedufour.research.mcgill.ca/dufour.html"
-           target="_blank"
-           rel="noopener noreferrer">Jean-Marie Dufour</a>
-        and Abderrahim Taamouti.
-        (September 2026; 26 pages).
-      </span>
-    </div>
-
-    <div class="paper-status">
-      Submitted to <em>Communications in Statistics - Theory and Methods</em> |
-      <a href="https://arxiv.org/abs/2510.22714"
-         target="_blank"
-         rel="noopener noreferrer">arXiv</a>
-    </div>
-
-    <details class="paper-abstract">
-      <summary>Abstract</summary>
-
-      <p>
-        We provide pairwise-difference (Gini-type) representations of higher-order central moments for both general random variables and empirical moments. Such representations do not require a measure of location. For third and fourth moments, this yields pairwise-difference representations of skewness and kurtosis coefficients. We show that all central moments possess such representations, so no reference to the mean is needed for moments of any order. This is done by considering i.i.d. replications of the random variables considered, by observing that central moments can be interpreted as covariances between a random variable and powers of the same variable, and by giving recursions that link the pairwise-difference representation of any moment to lower-order ones.
-      </p>
-    </details>
-
-  </li>
-
+  
   <li class="paper-item">
 
     <div class="paper-citation">
@@ -151,6 +132,58 @@ html[data-theme="dark"] .paper-abstract {
 
   </li>
 
+  <li class="paper-item">
+
+    <div class="paper-citation">
+      <span class="paper-title">“Pairwise Difference Representations of Moments: Gini and Generalized Lagrange Identities,”</span>
+      <span class="paper-details">
+        with
+        <a href="https://jeanmariedufour.research.mcgill.ca/dufour.html"
+           target="_blank"
+           rel="noopener noreferrer">Jean-Marie Dufour</a>
+        and Abderrahim Taamouti.
+        (December 2025; 37 pages).
+      </span>
+    </div>
+
+    
+  <div class="paper-status">
+    Revise and resubmit at <em>International Statistical Review</em> |
+    <a href="https://arxiv.org/abs/2510.22714v2"
+       target="_blank"
+       rel="noopener noreferrer">arXiv (v2)</a>
+  </div>
+
+
+    <details class="paper-abstract">
+      <summary>Abstract</summary>
+
+      <p>
+       We provide pairwise-difference (Gini-type) representations of
+      higher-order central moments for both general random variables
+      and empirical moments. Such representations do not require a
+      measure of location. For third and fourth moments, this yields
+      pairwise-difference representations of skewness and kurtosis
+      coefficients. We show that all central moments possess such
+      representations, so no reference to the mean is needed for
+      moments of any order. This is done by considering i.i.d.
+      replications of the random variables considered, by observing
+      that central moments can be interpreted as covariances between
+      a random variable and powers of the same variable, and by
+      giving recursions which link the pairwise-difference
+      representation of any moment to lower order ones. Numerical
+      summation identities are deduced. Through a similar approach,
+      we give analogues of the Lagrange and Binet-Cauchy identities
+      for general random variables, along with a simple derivation
+      of the classic Cauchy-Schwarz inequality for covariances.
+      Finally, an application to unbiased estimation of centered
+      moments is discussed.
+      </p>
+    </details>
+
+  </li>
+
+  
 </ul>
 
 <h2>Conference Proceedings</h2>

@@ -22,8 +22,6 @@ You can find my CV here [<a href="{{ base_path }}/files/CV.pdf" target="_blank" 
 
 **[“Estimating Stochastic Volatility Models with Moving Average Components: Methodology and Applications”]({{ base_path }}/research/#job-market-paper)**  
 with Jean-Marie Dufour. Submitted.
-
-[Main text]({{ base_path }}/files/Estimation_ARMApq_Tong_Dufour_2026_main.pdf) | [Online appendix]({{ base_path }}/files/Estimation_ARMApq_Tong_Dufour_2026_appendix.pdf)
-
+(October 2026; [Main text]({{ base_path }}/files/Estimation_ARMApq_Tong_Dufour_2026_main.pdf): 37 pages; [Online appendix]({{ base_path }}/files/Estimation_ARMApq_Tong_Dufour_2026_appendix.pdf): 39 pages).
 
 For a complete list of my papers and ongoing projects, please see the [Research]({{ base_path }}/research/) page.

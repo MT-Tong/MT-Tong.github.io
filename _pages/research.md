@@ -142,7 +142,7 @@ html[data-theme="dark"] .paper-abstract {
            target="_blank"
            rel="noopener noreferrer">Jean-Marie Dufour</a>
         and Abderrahim Taamouti.
-        (December 2025; 37 pages).
+        (December 2025; 35 pages).
       </span>
     </div>
 
